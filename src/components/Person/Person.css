@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.item .person-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.item .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item .person-delete-btn {
+  font-size: 20px;
+  color: #E73541;
+  background-color: transparent;
+  border: none;
+  box-shadow: unset;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.item .person-delete-btn:hover {
+  font-size: 23px;
+}
