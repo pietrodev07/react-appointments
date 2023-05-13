@@ -1,5 +1,6 @@
 import { FaGithub } from 'react-icons/fa';
 import './Footer.css'
+
 const Footer = () => {
 
   const date = new Date().getFullYear();
