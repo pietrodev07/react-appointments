@@ -1,8 +1,14 @@
+import Header from "./components/Header/Header";
+
 function App() {
 
   return (
 
-    <h1>APPOINTMENTS</h1>
+    <>
+
+      <Header />
+
+    </>
 
   )
 
