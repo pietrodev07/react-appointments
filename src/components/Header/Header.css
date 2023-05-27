@@ -1,5 +1,6 @@
 .header {
-  height: 10vh;
+  height: 60px;
+  flex-shrink: 0;
   background-color: #1c1c1c;
   display: flex;
   justify-content: center;

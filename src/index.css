@@ -10,3 +10,9 @@ body {
   color: #ffffffdd;
   background-color: #242424;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+}
